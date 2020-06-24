@@ -1,18 +1,22 @@
 import random
 
+i = input("Please enter your number:")
 
-for x in range(4):
-     
-    print('Time: '+ str(x)) 
-    print('__________________________')
-    #declare variable a and variable b
+if i/2 != 0:
+    print ('weird')
+else:
+    if i>=2 and i<=55:
+        print('not weird')
+    else:
+        if i>=6 and i<=20:
+            print('weird')
+        else:
+            if i>20:
+                print('not weird')
 
-    for x in range(0,10):
-        a = random.randrange(1,100)  #declare a as a random number
-        b = random.randrange(1,100)  #declare b as a random number
-        print (a + b)
 
-    
+
+
 
 
 
