@@ -1,23 +1,23 @@
 import random
 
-i = input("Please enter your number:")
+n = input("Please enter your number:")
 
-if i/2 != 0:
-    print ('weird')
-else:
-    if i>=2 and i<=55:
-        print('not weird')
-    else:
-        if i>=6 and i<=20:
-            print('weird')
-        else:
-            if i>20:
-                print('not weird')
+if n%2 != 0:
+    print('Weird')
+elif n%2 == 0 and 2<=n<=5:
+    print('Not weird')
+elif n%2 == 0 and 6<=n<=20:
+    print('Weird')
+elif n%2 == 0 and n>20:
+    print('Not weird')
 
 
 
 
 
+
+
+ 
 
 
 
